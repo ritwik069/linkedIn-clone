@@ -1,0 +1,31 @@
+.login{
+    text-align: center;
+    height: calc(100vh - 66px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.login > form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px ;
+    
+    
+}
+.login > form >input{
+ 
+    /* display: inline; */
+    width: 200px;
+    padding: 10px;
+    margin: 6px auto;
+    margin-bottom: 7px;
+}
+.login > form >button{
+    width: 200px;
+    margin: 2px auto;
+    padding: 5px;
+}
+.login >p>span{
+    cursor: pointer;
+}
